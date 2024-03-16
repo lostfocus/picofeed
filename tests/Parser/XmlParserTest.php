@@ -10,9 +10,8 @@ class XmlParserTest extends \PHPUnit\Framework\TestCase
     public function testEmpty()
     {
         $this->assertFalse(XmlParser::getDomDocument(''));
+        $this->assertFalse(XmlParser::getSimpleXml(''));
         $this->assertNotFalse(XmlParser::getHtmlDocument(''));
-        $this->expectException(\ValueError::class);
-        XmlParser::getSimpleXml('');
     }
 
     public function testGetEncodingFromMetaTag()
