@@ -4,7 +4,7 @@ PicoFeed
 PicoFeed was originally developed for [Miniflux](http://miniflux.net), a minimalist and open source news reader.
 
 ![Packagist Version](https://img.shields.io/packagist/v/lostfocus/picofeed)
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/lostfocus/picofeed/test.yaml?branch=main)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/lostfocus/picofeed/test.yaml?branch=php8-dev)
 ![Packagist PHP Version Support](https://img.shields.io/packagist/php-v/lostfocus/picofeed)
 
 This fork of PicoFeed was created to prepare upstream PRs. 
