@@ -1,4 +1,4 @@
-name: "PHPUnit/PHPStan"
+name: "PHPUnit"
 
 on:
   push:
@@ -40,4 +40,4 @@ jobs:
         uses: "ramsey/composer-install@v3"
 
       - name: "Execute unit tests"
-        run: "vendor/bin/phpunit --testdox"
+        run: "vendor/bin/phpunit --exclude-group online"
