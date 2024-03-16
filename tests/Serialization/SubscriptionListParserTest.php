@@ -3,11 +3,13 @@
 namespace PicoFeed\Serialization;
 
 
+use PicoFeed\Parser\MalformedXmlException;
+
 class SubscriptionListParserTest extends \PHPUnit\Framework\TestCase
 {
     public function testMalFormedFormat()
     {
-        $this->setExpectedException('PicoFeed\Parser\MalformedXmlException');
+        $this->expectException(MalformedXmlException::class);
         SubscriptionListParser::create('foobar')->parse();
     }
 
@@ -20,7 +22,7 @@ class SubscriptionListParserTest extends \PHPUnit\Framework\TestCase
         $this->assertEquals('CNET News.com', $subscriptionList->subscriptions[0]->getTitle());
         $this->assertEquals('http://news.com.com/2547-1_3-0-5.xml', $subscriptionList->subscriptions[0]->getFeedUrl());
         $this->assertEquals('http://news.com.com/', $subscriptionList->subscriptions[0]->getSiteUrl());
-        $this->assertEquals('rss', $subscriptionList->subscriptions[0]->getType());
+        $this->assertEquals('RSS2', $subscriptionList->subscriptions[0]->getType());
         $this->assertNotEmpty($subscriptionList->subscriptions[0]->getDescription());
     }
 
