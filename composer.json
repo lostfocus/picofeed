@@ -13,7 +13,7 @@
         "miniflux/picofeed": "0.1.35"
     },
     "require": {
-        "php": ">=5.6.0",
+        "php": ">=8.0.0",
         "ext-iconv": "*",
         "ext-dom": "*",
         "ext-xml": "*",
@@ -25,7 +25,8 @@
         "roave/security-advisories": "dev-latest",
         "phpdocumentor/reflection-docblock": "2.0.4",
         "symfony/yaml": "2.8.7",
-        "phpunit/phpunit" : "*"
+        "phpunit/phpunit" : "*",
+        "phpstan/phpstan": "*"
     },
     "suggest": {
         "ext-curl": "PicoFeed will use cURL if present"

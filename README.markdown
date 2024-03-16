@@ -32,7 +32,7 @@ Features
 Requirements
 ------------
 
-- PHP >= 5.6
+- PHP >= 8.0
 - libxml >= 2.7
 - XML PHP extensions: DOM and SimpleXML
 - cURL or Stream Context (`allow_url_fopen=On`)
