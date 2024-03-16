@@ -1,5 +1,5 @@
 {
-    "name": "p3k/picofeed",
+    "name": "lostfocus/picofeed",
     "description": "Modern library to handle RSS/Atom feeds",
     "homepage": "https://github.com/aaronpk/picoFeed",
     "type": "library",
