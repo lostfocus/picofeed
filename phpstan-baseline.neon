@@ -1589,3 +1589,1218 @@ parameters:
 			message: "#^Method PicoFeed\\\\Syndication\\\\Rss20FeedBuilder\\:\\:build\\(\\) should return string but returns string\\|false\\.$#"
 			count: 1
 			path: lib/PicoFeed/Syndication/Rss20FeedBuilder.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\ClientTest\\:\\:testCacheBoth\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/ClientTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\ClientTest\\:\\:testCacheBothHaveToMatch\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/ClientTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\ClientTest\\:\\:testCacheEtag\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/ClientTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\ClientTest\\:\\:testCacheLastModified\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/ClientTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\ClientTest\\:\\:testCharset\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/ClientTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\ClientTest\\:\\:testContentType\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/ClientTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\ClientTest\\:\\:testDownload\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/ClientTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\ClientTest\\:\\:testExpirationWithCacheControlHeaderAndNotEmptyMaxAge\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/ClientTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\ClientTest\\:\\:testExpirationWithCacheControlHeaderAndNotEmptySMaxAge\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/ClientTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\ClientTest\\:\\:testExpirationWithCacheControlHeaderAndOnlyMaxAge\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/ClientTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\ClientTest\\:\\:testExpirationWithCacheControlHeaderAndZeroMaxAge\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/ClientTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\ClientTest\\:\\:testExpirationWithExpiresHeader\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/ClientTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\ClientTest\\:\\:testExpirationWithExpiresHeaderAtZero\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/ClientTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\ClientTest\\:\\:testMultipleDownload\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/ClientTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\ClientTest\\:\\:testPassthrough\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/ClientTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\CurlTest\\:\\:testBadUrl\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/CurlTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\CurlTest\\:\\:testDownload\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/CurlTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\CurlTest\\:\\:testPassthrough\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/CurlTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\CurlTest\\:\\:testSSL\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/CurlTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\HttpHeadersTest\\:\\:testHttpHeadersSet\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/HttpHeadersTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\HttpHeadersTest\\:\\:testParseWithEmptyHeaderValue\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/HttpHeadersTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\HttpHeadersTest\\:\\:testParseWithMultipleOccurrenceOfHTTP\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/HttpHeadersTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\HttpHeadersTest\\:\\:testParseWithMultipleRedirections\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/HttpHeadersTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\StreamTest\\:\\:testBadUrl\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/StreamTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\StreamTest\\:\\:testChunkedResponse\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/StreamTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\StreamTest\\:\\:testDecodeGzip\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/StreamTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\StreamTest\\:\\:testDownload\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/StreamTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\StreamTest\\:\\:testPassthrough\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/StreamTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$expectedString of method PHPUnit\\\\Framework\\\\TestCase\\:\\:expectOutputString\\(\\) expects string, string\\|false given\\.$#"
+			count: 1
+			path: tests/Client/StreamTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\UrlTest\\:\\:testAbsoluteUrl\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/UrlTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\UrlTest\\:\\:testBaseUrl\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/UrlTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\UrlTest\\:\\:testGetBasePath\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/UrlTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\UrlTest\\:\\:testGetFullPath\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/UrlTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\UrlTest\\:\\:testHasPort\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/UrlTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\UrlTest\\:\\:testHasScheme\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/UrlTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\UrlTest\\:\\:testIsProtocolRelative\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/UrlTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\UrlTest\\:\\:testIsRelativePath\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/UrlTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\UrlTest\\:\\:testIsRelativeUrl\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/UrlTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Client\\\\UrlTest\\:\\:testResolve\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Client/UrlTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\AttributeFilterTest\\:\\:testAllowIframeFullscreen\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/AttributeFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\AttributeFilterTest\\:\\:testFilterAllowedAttribute\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/AttributeFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\AttributeFilterTest\\:\\:testFilterBlacklistAttribute\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/AttributeFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\AttributeFilterTest\\:\\:testFilterIframeAttribute\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/AttributeFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\AttributeFilterTest\\:\\:testFilterIntegerAttribute\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/AttributeFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\AttributeFilterTest\\:\\:testFilterProtocolAttribute\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/AttributeFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\AttributeFilterTest\\:\\:testHtml\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/AttributeFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\AttributeFilterTest\\:\\:testImageProxyLimitedToHTTPSwithHTTPLink\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/AttributeFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\AttributeFilterTest\\:\\:testImageProxyLimitedToHTTPSwithHTTPSLink\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/AttributeFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\AttributeFilterTest\\:\\:testImageProxyLimitedToHTTPwithHTTPLink\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/AttributeFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\AttributeFilterTest\\:\\:testImageProxyLimitedToHTTPwithHTTPSLink\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/AttributeFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\AttributeFilterTest\\:\\:testImageProxyLimitedToUnknownProtocol\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/AttributeFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\AttributeFilterTest\\:\\:testImageProxyWithHTTPLink\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/AttributeFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\AttributeFilterTest\\:\\:testImageProxyWithHTTPSLink\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/AttributeFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\AttributeFilterTest\\:\\:testNoImageProxySet\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/AttributeFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\AttributeFilterTest\\:\\:testRemoveYouTubeAutoplay\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/AttributeFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\AttributeFilterTest\\:\\:testRequiredAttribute\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/AttributeFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\AttributeFilterTest\\:\\:testRewriteAbsoluteUrl\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/AttributeFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\AttributeFilterTest\\:\\:testRewriteProxyImageUrl\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/AttributeFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\AttributeFilterTest\\:\\:testsetFilterImageProxyCallback\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/AttributeFilterTest.php
+
+		-
+			message: "#^Parameter \\#2 \\$attribute of method PicoFeed\\\\Filter\\\\Attribute\\:\\:removeYouTubeAutoplay\\(\\) expects array, string given\\.$#"
+			count: 1
+			path: tests/Filter/AttributeFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\FilterTest\\:\\:testNormalizeData\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/FilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\FilterTest\\:\\:testOverrideFilters\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/FilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\FilterTest\\:\\:testStripHeadTag\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/FilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\FilterTest\\:\\:testStripXmlTag\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/FilterTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$data of static method PicoFeed\\\\Filter\\\\Filter\\:\\:stripHeadTags\\(\\) expects string, string\\|false given\\.$#"
+			count: 2
+			path: tests/Filter/FilterTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$data of static method PicoFeed\\\\Filter\\\\Filter\\:\\:stripXmlTag\\(\\) expects string, string\\|false given\\.$#"
+			count: 13
+			path: tests/Filter/FilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\HtmlFilterTest\\:\\:testAttributes\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/HtmlFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\HtmlFilterTest\\:\\:testBadAttributes\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/HtmlFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\HtmlFilterTest\\:\\:testClearScriptAttributes\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/HtmlFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\HtmlFilterTest\\:\\:testClearStyleAttributes\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/HtmlFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\HtmlFilterTest\\:\\:testCode\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/HtmlFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\HtmlFilterTest\\:\\:testEmpty\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/HtmlFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\HtmlFilterTest\\:\\:testEmptyTags\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/HtmlFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\HtmlFilterTest\\:\\:testExecute\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/HtmlFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\HtmlFilterTest\\:\\:testFilterRules\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/HtmlFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\HtmlFilterTest\\:\\:testIframe\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/HtmlFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\HtmlFilterTest\\:\\:testRelativeScheme\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/HtmlFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\HtmlFilterTest\\:\\:testRemoveEmptyTable\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/HtmlFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\HtmlFilterTest\\:\\:testRemoveEmptyTags\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/HtmlFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\HtmlFilterTest\\:\\:testRemoveMultipleTags\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/HtmlFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\HtmlFilterTest\\:\\:testRemoveNoBreakingSpace\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/HtmlFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\TagFilterTest\\:\\:testAllowedTag\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/TagFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Filter\\\\TagFilterTest\\:\\:testHtml\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Filter/TagFilterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Generator\\\\FileContentGeneratorTest\\:\\:testGenerateHtml\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Generator/FileContentGeneratorTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Generator\\\\FileContentGeneratorTest\\:\\:testSkipContentGeneration\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Generator/FileContentGeneratorTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Generator\\\\YoutubeContentGeneratorTest\\:\\:testGenerateHtmlFromLink\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Generator/YoutubeContentGeneratorTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Generator\\\\YoutubeContentGeneratorTest\\:\\:testGenerateHtmlFromXmlContent\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Generator/YoutubeContentGeneratorTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Generator\\\\YoutubeContentGeneratorTest\\:\\:testSkipContentGeneration\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Generator/YoutubeContentGeneratorTest.php
+
+		-
+			message: "#^Property PicoFeed\\\\Parser\\\\Item\\:\\:\\$xml \\(SimpleXMLElement\\) does not accept SimpleXMLElement\\|false\\.$#"
+			count: 1
+			path: tests/Generator/YoutubeContentGeneratorTest.php
+
+		-
+			message: "#^Method PHPUnit\\\\Framework\\\\Assert\\:\\:assertEquals\\(\\) invoked with 4 parameters, 2\\-3 required\\.$#"
+			count: 1
+			path: tests/Parser/AtomParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\AtomParserTest\\:\\:testBadInput\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/AtomParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\AtomParserTest\\:\\:testFindFeedDate\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/AtomParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\AtomParserTest\\:\\:testFindFeedDescription\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/AtomParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\AtomParserTest\\:\\:testFindFeedIcon\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/AtomParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\AtomParserTest\\:\\:testFindFeedId\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/AtomParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\AtomParserTest\\:\\:testFindFeedLanguage\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/AtomParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\AtomParserTest\\:\\:testFindFeedLogo\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/AtomParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\AtomParserTest\\:\\:testFindFeedTitle\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/AtomParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\AtomParserTest\\:\\:testFindFeedUrl\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/AtomParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\AtomParserTest\\:\\:testFindItemEnclosure\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/AtomParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\AtomParserTest\\:\\:testFindItemId\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/AtomParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\AtomParserTest\\:\\:testFindItemTitle\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/AtomParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\AtomParserTest\\:\\:testFindItemUrl\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/AtomParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\AtomParserTest\\:\\:testFindSiteUrl\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/AtomParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\AtomParserTest\\:\\:testGetItemsTree\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/AtomParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\AtomParserTest\\:\\:testItemAuthor\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/AtomParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\AtomParserTest\\:\\:testItemAuthorUrl\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/AtomParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\AtomParserTest\\:\\:testItemCategories\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/AtomParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\AtomParserTest\\:\\:testItemContent\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/AtomParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\AtomParserTest\\:\\:testItemDate\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/AtomParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\AtomParserTest\\:\\:testItemLanguage\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/AtomParserTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$content of class PicoFeed\\\\Parser\\\\Atom constructor expects string, string\\|false given\\.$#"
+			count: 89
+			path: tests/Parser/AtomParserTest.php
+
+		-
+			message: "#^Parameter \\#3 \\$message of method PHPUnit\\\\Framework\\\\Assert\\:\\:assertEquals\\(\\) expects string, int given\\.$#"
+			count: 1
+			path: tests/Parser/AtomParserTest.php
+
+		-
+			message: "#^Method PHPUnit\\\\Framework\\\\Assert\\:\\:assertEquals\\(\\) invoked with 4 parameters, 2\\-3 required\\.$#"
+			count: 14
+			path: tests/Parser/DateParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\DateParserTest\\:\\:testParseDate\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/DateParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\FeedTest\\:\\:testLangRTL\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/FeedTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\ItemTest\\:\\:testGetTag\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/ItemTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\ItemTest\\:\\:testLangRTL\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/ItemTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$content of class PicoFeed\\\\Parser\\\\Rss20 constructor expects string, string\\|false given\\.$#"
+			count: 1
+			path: tests/Parser/ItemTest.php
+
+		-
+			message: "#^Parameter \\#2 \\$haystack of method PHPUnit\\\\Framework\\\\Assert\\:\\:assertCount\\(\\) expects Countable\\|iterable, array\\|false given\\.$#"
+			count: 1
+			path: tests/Parser/ItemTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\ParserTest\\:\\:testChangeHashAlgo\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\ParserTest\\:\\:testFeedEncodingsAreSupported\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\ParserTest\\:\\:testFeedURLFallbackIsUsed\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\ParserTest\\:\\:testFeedsWithInvalidCharacters\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\ParserTest\\:\\:testHTTPEncodingFallbackIsUsed\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\ParserTest\\:\\:testLangRTL\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\ParserTest\\:\\:testXMLTagStrippingIsUsed\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/ParserTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$content of class PicoFeed\\\\Parser\\\\Atom constructor expects string, string\\|false given\\.$#"
+			count: 1
+			path: tests/Parser/ParserTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$content of class PicoFeed\\\\Parser\\\\Rss20 constructor expects string, string\\|false given\\.$#"
+			count: 6
+			path: tests/Parser/ParserTest.php
+
+		-
+			message: "#^Method PHPUnit\\\\Framework\\\\Assert\\:\\:assertEquals\\(\\) invoked with 4 parameters, 2\\-3 required\\.$#"
+			count: 2
+			path: tests/Parser/Rss10ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss10ParserTest\\:\\:testBadInput\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss10ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss10ParserTest\\:\\:testFindFeedDate\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss10ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss10ParserTest\\:\\:testFindFeedDescription\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss10ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss10ParserTest\\:\\:testFindFeedIcon\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss10ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss10ParserTest\\:\\:testFindFeedId\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss10ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss10ParserTest\\:\\:testFindFeedLanguage\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss10ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss10ParserTest\\:\\:testFindFeedLogo\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss10ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss10ParserTest\\:\\:testFindFeedTitle\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss10ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss10ParserTest\\:\\:testFindFeedUrl\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss10ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss10ParserTest\\:\\:testFindItemAuthor\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss10ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss10ParserTest\\:\\:testFindItemAuthorUrl\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss10ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss10ParserTest\\:\\:testFindItemCategories\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss10ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss10ParserTest\\:\\:testFindItemContent\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss10ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss10ParserTest\\:\\:testFindItemDate\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss10ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss10ParserTest\\:\\:testFindItemEnclosure\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss10ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss10ParserTest\\:\\:testFindItemId\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss10ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss10ParserTest\\:\\:testFindItemLanguage\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss10ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss10ParserTest\\:\\:testFindItemTitle\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss10ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss10ParserTest\\:\\:testFindItemUrl\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss10ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss10ParserTest\\:\\:testFindSiteUrl\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss10ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss10ParserTest\\:\\:testGetItemsTree\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss10ParserTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$content of class PicoFeed\\\\Parser\\\\Rss10 constructor expects string, string\\|false given\\.$#"
+			count: 78
+			path: tests/Parser/Rss10ParserTest.php
+
+		-
+			message: "#^Parameter \\#3 \\$message of method PHPUnit\\\\Framework\\\\Assert\\:\\:assertEquals\\(\\) expects string, int given\\.$#"
+			count: 1
+			path: tests/Parser/Rss10ParserTest.php
+
+		-
+			message: "#^Method PHPUnit\\\\Framework\\\\Assert\\:\\:assertEquals\\(\\) invoked with 4 parameters, 2\\-3 required\\.$#"
+			count: 2
+			path: tests/Parser/Rss20ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss20ParserTest\\:\\:testBadInput\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss20ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss20ParserTest\\:\\:testFindFeedDate\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss20ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss20ParserTest\\:\\:testFindFeedDescription\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss20ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss20ParserTest\\:\\:testFindFeedIcon\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss20ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss20ParserTest\\:\\:testFindFeedId\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss20ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss20ParserTest\\:\\:testFindFeedLanguage\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss20ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss20ParserTest\\:\\:testFindFeedLogo\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss20ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss20ParserTest\\:\\:testFindFeedTitle\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss20ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss20ParserTest\\:\\:testFindFeedUrl\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss20ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss20ParserTest\\:\\:testFindItemAuthor\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss20ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss20ParserTest\\:\\:testFindItemCategories\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss20ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss20ParserTest\\:\\:testFindItemContent\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss20ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss20ParserTest\\:\\:testFindItemDate\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss20ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss20ParserTest\\:\\:testFindItemEnclosure\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss20ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss20ParserTest\\:\\:testFindItemId\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss20ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss20ParserTest\\:\\:testFindItemLanguage\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss20ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss20ParserTest\\:\\:testFindItemTitle\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss20ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss20ParserTest\\:\\:testFindItemUrl\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss20ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss20ParserTest\\:\\:testFindSiteUrl\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss20ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss20ParserTest\\:\\:testGetItemsTree\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss20ParserTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$content of class PicoFeed\\\\Parser\\\\Rss20 constructor expects string, string\\|false given\\.$#"
+			count: 54
+			path: tests/Parser/Rss20ParserTest.php
+
+		-
+			message: "#^Parameter \\#3 \\$message of method PHPUnit\\\\Framework\\\\Assert\\:\\:assertEquals\\(\\) expects string, int given\\.$#"
+			count: 1
+			path: tests/Parser/Rss20ParserTest.php
+
+		-
+			message: "#^Method PHPUnit\\\\Framework\\\\Assert\\:\\:assertEquals\\(\\) invoked with 4 parameters, 2\\-3 required\\.$#"
+			count: 2
+			path: tests/Parser/Rss91ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss91ParserTest\\:\\:testFormatOk\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss91ParserTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$content of class PicoFeed\\\\Parser\\\\Rss91 constructor expects string, string\\|false given\\.$#"
+			count: 1
+			path: tests/Parser/Rss91ParserTest.php
+
+		-
+			message: "#^Method PHPUnit\\\\Framework\\\\Assert\\:\\:assertEquals\\(\\) invoked with 4 parameters, 2\\-3 required\\.$#"
+			count: 1
+			path: tests/Parser/Rss92ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\Rss92ParserTest\\:\\:testFormatOk\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/Rss92ParserTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$content of class PicoFeed\\\\Parser\\\\Rss92 constructor expects string, string\\|false given\\.$#"
+			count: 1
+			path: tests/Parser/Rss92ParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\XmlParserTest\\:\\:testEmpty\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/XmlParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\XmlParserTest\\:\\:testGetEncodingFromMetaTag\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/XmlParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\XmlParserTest\\:\\:testGetEncodingFromXmlTag\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/XmlParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\XmlParserTest\\:\\:testReplaceXPathPrefixWithNamespaceURI\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/XmlParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\XmlParserTest\\:\\:testScanDomDocument\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/XmlParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\XmlParserTest\\:\\:testScanForXEE\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/XmlParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\XmlParserTest\\:\\:testScanForXXE\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/XmlParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\XmlParserTest\\:\\:testScanInvalidXml\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/XmlParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\XmlParserTest\\:\\:testScanSimpleXML\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/XmlParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Parser\\\\XmlParserTest\\:\\:testScanXmlWithDTD\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Parser/XmlParserTest.php
+
+		-
+			message: "#^Unreachable statement \\- code above always terminates\\.$#"
+			count: 2
+			path: tests/Parser/XmlParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Reader\\\\FaviconTest\\:\\:testDataUri\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Reader/FaviconTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Reader\\\\FaviconTest\\:\\:testDataUri_withBadContentType\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Reader/FaviconTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Reader\\\\FaviconTest\\:\\:testExists\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Reader/FaviconTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Reader\\\\FaviconTest\\:\\:testExtract\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Reader/FaviconTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Reader\\\\FaviconTest\\:\\:testFind_directLinkFirst\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Reader/FaviconTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Reader\\\\FaviconTest\\:\\:testFind_fallsBackToExtract\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Reader/FaviconTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Reader\\\\FaviconTest\\:\\:testFind_inMeta\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Reader/FaviconTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Reader\\\\ReaderTest\\:\\:testDetectFormat\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Reader/ReaderTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Reader\\\\ReaderTest\\:\\:testDiscover\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Reader/ReaderTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Reader\\\\ReaderTest\\:\\:testDownloadCache\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Reader/ReaderTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Reader\\\\ReaderTest\\:\\:testDownloadHTTP\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Reader/ReaderTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Reader\\\\ReaderTest\\:\\:testDownloadHTTPS\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Reader/ReaderTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Reader\\\\ReaderTest\\:\\:testFeedsReportedAsNotWorking\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Reader/ReaderTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Reader\\\\ReaderTest\\:\\:testFindAtomFeed\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Reader/ReaderTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Reader\\\\ReaderTest\\:\\:testFindFeedNotInHead\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Reader/ReaderTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Reader\\\\ReaderTest\\:\\:testFindIgnoreTypeInOtherAttribute\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Reader/ReaderTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Reader\\\\ReaderTest\\:\\:testFindIgnoreUnknownType\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Reader/ReaderTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Reader\\\\ReaderTest\\:\\:testFindMultipleFeeds\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Reader/ReaderTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Reader\\\\ReaderTest\\:\\:testFindNoFeedPresent\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Reader/ReaderTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Reader\\\\ReaderTest\\:\\:testFindRssFeed\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Reader/ReaderTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Reader\\\\ReaderTest\\:\\:testFindWithHtmlParamEmptyString\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Reader/ReaderTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Reader\\\\ReaderTest\\:\\:testFindWithInvalidHTML\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Reader/ReaderTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Reader\\\\ReaderTest\\:\\:testFindWithOtherAttributesPresent\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Reader/ReaderTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Reader\\\\ReaderTest\\:\\:testGetParserUsesHTTPEncoding\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Reader/ReaderTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Reader\\\\ReaderTest\\:\\:testGetParserUsesSiteURL\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Reader/ReaderTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Reader\\\\ReaderTest\\:\\:testPrependScheme\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Reader/ReaderTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$content of method PicoFeed\\\\Reader\\\\Reader\\:\\:detectFormat\\(\\) expects string, string\\|false given\\.$#"
+			count: 10
+			path: tests/Reader/ReaderTest.php
+
+		-
+			message: "#^Parameter \\#2 \\$content of method PicoFeed\\\\Reader\\\\Reader\\:\\:getParser\\(\\) expects string, string\\|false given\\.$#"
+			count: 3
+			path: tests/Reader/ReaderTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Scraper\\\\RuleLoaderTest\\:\\:testGetRules\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Scraper/RuleLoaderTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Scraper\\\\RuleLoaderTest\\:\\:testGetRulesFileList\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Scraper/RuleLoaderTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Scraper\\\\RuleLoaderTest\\:\\:testGetRulesFolders\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Scraper/RuleLoaderTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Scraper\\\\RuleLoaderTest\\:\\:testLoadRuleFile\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Scraper/RuleLoaderTest.php
+
+		-
+			message: "#^Argument of an invalid type array\\<int, string\\>\\|false supplied for foreach, only iterables are supported\\.$#"
+			count: 2
+			path: tests/Scraper/RulesTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Scraper\\\\RulesTest\\:\\:testThatRulesAreValid\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Scraper/RulesTest.php
+
+		-
+			message: "#^Comparison operation \"\\>\\=\" between int\\<0, max\\>\\|false and 0 is always true\\.$#"
+			count: 1
+			path: tests/Scraper/ScraperTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Scraper\\\\ScraperTest\\:\\:testContentGrabberCallback\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Scraper/ScraperTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Scraper\\\\ScraperTest\\:\\:testRssGrabContent\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Scraper/ScraperTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Scraper\\\\ScraperTest\\:\\:testRuleParser\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Scraper/ScraperTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Scraper\\\\ScraperTest\\:\\:testUrlScraper\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Scraper/ScraperTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Serialization\\\\SubscriptionListBuilderTest\\:\\:testWithCategories\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Serialization/SubscriptionListBuilderTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Serialization\\\\SubscriptionListBuilderTest\\:\\:testWithoutCategories\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Serialization/SubscriptionListBuilderTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Serialization\\\\SubscriptionListBuilderTest\\:\\:testWithoutTitle\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Serialization/SubscriptionListBuilderTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Serialization\\\\SubscriptionListParserTest\\:\\:testFormat\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Serialization/SubscriptionListParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Serialization\\\\SubscriptionListParserTest\\:\\:testGoogleReader\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Serialization/SubscriptionListParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Serialization\\\\SubscriptionListParserTest\\:\\:testMalFormedFormat\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Serialization/SubscriptionListParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Serialization\\\\SubscriptionListParserTest\\:\\:testNewsBeuter\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Serialization/SubscriptionListParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Serialization\\\\SubscriptionListParserTest\\:\\:testTinyTinyRss\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Serialization/SubscriptionListParserTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$data of static method PicoFeed\\\\Serialization\\\\SubscriptionListParser\\:\\:create\\(\\) expects string, string\\|false given\\.$#"
+			count: 4
+			path: tests/Serialization/SubscriptionListParserTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Syndication\\\\AtomWriterTest\\:\\:testWriter\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Syndication/AtomWriterTest.php
+
+		-
+			message: "#^Method PicoFeed\\\\Syndication\\\\Rss20WriterTest\\:\\:testWriter\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Syndication/Rss20WriterTest.php
