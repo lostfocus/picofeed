@@ -3,9 +3,12 @@ PicoFeed
 
 PicoFeed was originally developed for [Miniflux](http://miniflux.net), a minimalist and open source news reader.
 
-[![Build Status](https://travis-ci.org/aaronpk/picoFeed.svg?branch=master)](https://travis-ci.org/aaronpk/picofeed)
+![Packagist Version](https://img.shields.io/packagist/v/lostfocus/picofeed)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/lostfocus/picofeed/test.yaml?branch=php7-dev)
+![Packagist PHP Version Support](https://img.shields.io/packagist/php-v/lostfocus/picofeed)
 
-This fork of PicoFeed was created after the original author dropped support. It is published on Packagist as `p3k/picofeed`.
+This fork of PicoFeed was created to prepare upstream PRs. 
+Upstream is published on Packagist as `p3k/picofeed`.
 
 ```
 composer require p3k/picofeed
