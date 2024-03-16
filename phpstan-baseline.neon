@@ -481,11 +481,6 @@ parameters:
 			path: lib/PicoFeed/Filter/Html.php
 
 		-
-			message: "#^Parameter \\#3 \\$value of function xml_parser_set_option expects int\\|string, false given\\.$#"
-			count: 1
-			path: lib/PicoFeed/Filter/Html.php
-
-		-
 			message: "#^Property PicoFeed\\\\Filter\\\\Html\\:\\:\\$attribute \\(PicoFeed\\\\Filter\\\\Attribute\\) does not accept default value of type string\\.$#"
 			count: 1
 			path: lib/PicoFeed/Filter/Html.php
